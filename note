@@ -64,7 +64,7 @@ while getopts "ekhitw" opt; do
             # echo "-w triggered"
             fn=$TOWATCH_FILE
             ;;
-         \?)
+        \?)
             echo "Invalid option: -$OPTARG" >&2
             exit 1
             ;;
